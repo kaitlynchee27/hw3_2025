@@ -148,7 +148,7 @@ first div in the grid  and place it in the grid. */
      grid-column: 1/-1;
      background-image: url('../images/header.jpg');
      min-height: 500px;
-     background: cover;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -203,7 +203,7 @@ first div in the grid  and place it in the grid. */
   @media screen and (min-width: 800px){
      nav{
      text-align: right;
-     padding: 30px 0px 0px 30x;
+     padding: 30px 0px 0px 30px;
      }
   
   /* Step 10: Write the selector/rule property to update the .container class */
